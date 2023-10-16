@@ -5,6 +5,7 @@ const classifier = new NluClassifier();
 
 function say(message) {
   console.log(message);
+  console.log('hello');
 }
 
 function findAnswer(intent) {
