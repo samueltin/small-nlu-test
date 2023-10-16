@@ -1,0 +1,41 @@
+{
+	"env": {
+		"browser": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 5,
+		"sourceType": "script"
+	},
+  "ignorePatterns": ["**/GlobalDocuments/*.js"],
+	"rules": {
+    "no-tabs": "warn",
+    "no-mixed-spaces-and-tabs": "warn",
+		"indent": ["error", 4, { "SwitchCase": 1 }],
+    "no-trailing-spaces": "error",
+		"linebreak-style": ["error", "windows"], // clrf
+		"quotes": ["error", "double"],
+		"semi": ["error", "always"],
+		"no-empty": "warn",
+    "spaced-comment": ["error", "always"],
+    "space-before-blocks": "error",
+    "keyword-spacing": "error",
+    "no-unused-vars": "warn",
+    "brace-style": ["error", "1tbs"],
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-else-return": "error",
+    "block-spacing": "error",
+    "curly": "error",
+    "space-infix-ops": "error",
+    "max-len": ["warn", 160],
+    "no-param-reassign": "warn",
+    "no-shadow": "warn"
+    /* "padding-line-between-statements": [
+      "warn",
+      { "blankLine": "always", "prev": "*", "next": "block" },
+      { "blankLine": "always", "prev": "block", "next": "*" },
+      { "blankLine": "always", "prev": "*", "next": "block-like" },
+      { "blankLine": "always", "prev": "block-like", "next": "*" }
+    ] */
+	}
+}
